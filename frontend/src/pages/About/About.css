@@ -1,0 +1,128 @@
+.About {
+    height: 40vw;
+    margin: 30px auto;
+    background: url('../../assets/cafe-background.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px; /* Ensure padding for smaller screens */
+}
+
+.About-contents {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly more opacity for readability */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 60%;
+    text-align: left;
+    animation: fadeIn 2s ease-in;
+}
+
+.About-contents h2 {
+    font-weight: 600;
+    font-size: 3vw;
+    color: #3e3e3e;
+    margin-bottom: 10px;
+}
+
+.About-contents h3 {
+    font-size: 2vw;
+    font-weight: 500;
+    color: #3e3e3e;
+    margin-bottom: 15px;
+}
+
+.About-contents p {
+    font-size: 1.2vw;
+    color: #3e3e3e;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1050px) {
+    .About {
+        height: 50vw;
+        padding: 15px;
+    }
+
+    .About-contents {
+        max-width: 75%;
+        padding: 15px;
+    }
+
+    .About-contents h2 {
+        font-size: 4vw;
+    }
+
+    .About-contents h3 {
+        font-size: 2.8vw;
+    }
+
+    .About-contents p {
+        font-size: 1.8vw;
+    }
+}
+
+@media (max-width: 750px) {
+    .About {
+        height: auto; /* Allow height to adjust automatically */
+        padding: 10px;
+    }
+
+    .About-contents {
+        max-width: 90%;
+        padding: 10px;
+    }
+
+    .About-contents h2 {
+        font-size: 5vw;
+    }
+
+    .About-contents h3 {
+        font-size: 3.5vw;
+    }
+
+    .About-contents p {
+        font-size: 2.5vw;
+    }
+}
+
+@media (max-width: 450px) {
+    .About {
+        height: auto;
+        padding: 5px;
+    }
+
+    .About-contents {
+        max-width: 95%;
+        padding: 8px;
+    }
+
+    .About-contents h2 {
+        font-size: 6vw;
+    }
+
+    .About-contents h3 {
+        font-size: 4.5vw;
+    }
+
+    .About-contents p {
+        font-size: 3.5vw;
+    }
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,29 @@
+body {
+    font-family: 'Arial', sans-serif; /* Use a standard font family */
+}
+
+.about-container {
+    padding: 40px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url('src/assets/bgkoa.jpg'); /* Add your background image URL */
+    background-size: cover; /* Cover the whole container */
+    background-position: center; /* Center the background image */
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    color: white; /* Change text color for better contrast */
+}
+
+.about-title {
+    font-size: 30px; /* Increased font size */
+    margin-bottom: 15px;
+    font-family: 'Georgia', serif; /* Use a serif font for the title */
+}
+
+.about-paragraph {
+    font-size: 20px; /* Increased font size */
+    line-height: 1.6;
+    margin: 15px 0;
+    
+}

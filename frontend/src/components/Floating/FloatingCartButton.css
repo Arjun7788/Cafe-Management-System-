@@ -1,0 +1,27 @@
+.floating-cart-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #eeeeee; /* Change to the color you prefer */
+    color: white;
+    padding: 15px 20px;
+    border-radius: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .floating-cart-button:hover {
+    background-color: #e68900; /* Slightly darker shade on hover */
+  }
+  
+  .dot{
+    position: absolute;
+    min-width: 15px;
+    min-height: 15px;
+    background-color: #FF4C24;
+    border-radius: 10px;
+    top: 2px;
+    right: 6px;
+}
